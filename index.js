@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { View, Animated, Easing, ViewPropTypes, Platform } from 'react-native';
+import { View, Animated, Easing, Platform } from 'react-native';
+import {ViewPropTypes} from 'deprecated-react-native-prop-types';
 
 class FlipComponent extends Component {
   static propTypes = {
